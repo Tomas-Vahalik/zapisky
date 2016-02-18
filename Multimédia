@@ -1,0 +1,23 @@
+-video je vždy uložen v komprimované podobě - jinak by bylo hrozně velké
+      př. : obrazovka s rozlišením 1280x960; mám 3 bajty na pixel (RGB); bude 25 snímků/vteřinu, film má 90 min.
+        -- 1280x960x3x25x60x90 B =  asi 463 GB (kdyby to nebylo zkomprimované)
+-komprimační algoritmy fungují tak, že když se bity opakují, tak je neopíše ale uloží si např. tenhle bit je po sobě 5 krát.
+- ... finty s binárními čísly ....
+-snímky si uchovají pouze rozdíly od předešlých
+
+-"KODEK" = způsob, jakým se soubor převádí
+          -audio/video kodek (audiokodek = např. MP3)
+          -liší se poměrem zachování kvality a zmenšení
+-synchronizaci zvuku a videa  zajišťuje  "KONTEJNER" - např. avi (kontejner je jen obálka, ten už nekomprimuje)
+          -např. řeší která stopa zvuku jde do jakého sluchátka nebo přehrávání titulek
+
+DVD: 
+    1) Intro - např. hláška že se to nemá kopírovat, jde říct, že se nedá přeskočit
+    2) Menu
+      = krátký film co běží dokola
+      -má tlačítka (po kliknutí se začne přehrávat něco jiného - ne menu)
+      -když se najede na tlačítko, změní se průhledné popředí před menu - tlačítko bude zarámované
+    3) Film
+      a)kapitoly - mezi nimi jde skákat
+      b)zvukové stopy (např. jazyky)
+    -když film dohraje, hodí nás zpět do menu
