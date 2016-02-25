@@ -1,0 +1,21 @@
+- barevné modely (RGB - na obrazovce, CMY - na tiskárně,.....)
+- barevný kruh - definice odstínu a sytosti (HSL, HSV)
+    - když nechci přepočítávat na RGB
+
+-vektor/rastr
+
+Rastr:
+  -obrázek se tvořen sítí bodů (jako čtverečkovaný papír)
+  -každý čtvereček má jinou barvu
+  -např. se tak ukládají fotky (když zazoomuju, fotky se rozostří)
+      -musí ně nějakou magií přepočítat prostředky mezi body
+  JPEG, PNG, BMP
+  
+Vektor:
+  -obrázek je popsán geometrickými útvary ("tam je čtverec")
+      - pak se to přepočítá na body
+  -není problém to zvětšit
+  -SVG - jako text, dá se dobře kompresovat
+  
+-Obrazovky se dělají rastrové - mají dostatečné množství bodů
+-jsou různé metody jak vykreslovat šikmé čáry 
