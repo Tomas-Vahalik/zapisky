@@ -1,0 +1,14 @@
+- způsob jak procházet stavový prostor
+- např. v piškvorkách
+- "strom" = možnosti jak se prostor může vyvýjet
+
+Do Hloubky: možnost se prozkoumá až do konce, vrátí se pouze k nejbližšímu uzlu a jede se zase do konce
+Do Šířky: vždy se prozkoumají všechny možnosti v daném stavu
+
+např. Úloha na kolik tahů se někam dostanu s koněm se hodí prohledávat do šířky.
+      Do hloubky se hodí prohledávat např. že se chci s koněm dostat okolo šachovnice tam, kde jsem začal.
+
+"LIFO" - zásobník - stack
+  - ten prvek co přišel jako poslední se zpracuje jako první - používá se "do hloubky"
+"FIFO" - fronta - queue
+  - vždy se zpracuje nejstarší prvek - používá se "do šířky"
