@@ -8,7 +8,7 @@ Rastr:
   -obrázek se tvořen sítí bodů (jako čtverečkovaný papír)
   -každý čtvereček má jinou barvu
   -např. se tak ukládají fotky (když zazoomuju, fotky se rozostří)
-      -musí ně nějakou magií přepočítat prostředky mezi body
+      -musí se nějakou magií přepočítat prostředky mezi body
   JPEG, PNG, BMP
   
 Vektor:
