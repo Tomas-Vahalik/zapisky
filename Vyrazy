@@ -15,3 +15,15 @@
  2) z Tokenů pak složitě sestrojím strom
   ... Pavel si to fotí
  3) strom se pak zpracuje 
+
+INFIXOVÝ ZÁPIS
+ ... operátory jsou mezi operandama
+ ...5+2+3
+ -nevýhoda - špatně se dělají stromy
+ 
+POSTFIXOVÝ ZÁPIS
+  -operátory jsou za číslama
+  -např. 5+3*2 = 5 3 2 * +
+  - dobře se z něj dělá strom
+  -nevýhoda - nečitelné pro lidi
+  - využívá Java na tvorbu bajtkódu (v class souborech něco podobného)
