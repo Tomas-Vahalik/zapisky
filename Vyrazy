@@ -1,0 +1,17 @@
+- mám řetězec
+  5+y*4-2(1+0)
+    -rozložím si ho na strom reprezentující výraz
+    -vyhodnocuje se rekurzivně - můžu říct v rekurzi
+    -vyhodnotím levý podstrom, pak pravý podstrom
+-např. v php se tím definují proměnné (např. a = 5+x+2-3 ... udělám strom a procházím)
+ 
+ ... 5*2+31
+ 1)rozdělím na TOKENY
+  - 5  *  2  +  31
+  -TOKEN = a) číslo
+           b) plus
+           c) krát
+  - vyjde mi číslo, krát, číslo, plus, číslo   
+ 2) z Tokenů pak složitě sestrojím strom
+  ... Pavel si to fotí
+ 3) strom se pak zpracuje 
